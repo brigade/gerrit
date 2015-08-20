@@ -79,6 +79,9 @@ push_remote: gerrit
 # the memberships of all that user's groups in order to find potential matches.
 user_search_groups:
   - 'Registered Users'
+
+# Require command-line consent to push a review to this many reviewers:
+warn_reviewer_count: 4
 ```
 
 ## Usage
